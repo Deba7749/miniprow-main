@@ -21,7 +21,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - uses: sigstore/cosign-installer@e11c0892438d2c0a48e49dee376e4883f10f2e59 # v3.0.1
+      - uses: sigstore/cosign-installer@c3f2d79008c81762e405a967f8aa7f8c5686c760 # v3.0.1
 
       - uses: imjasonh/setup-ko@v0.7
         with:
